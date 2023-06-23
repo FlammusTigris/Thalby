@@ -107,6 +107,9 @@ header nav ul li a {
     padding-top: 60px;
     padding-bottom: 248px;
 }
+.guides .container{
+    box-sizing: border-box;
+}
 .guides .container h2{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -136,7 +139,7 @@ header nav ul li a {
 .guides article{
     display: flex;
     flex-direction: column;
-    margin-right: 63px;
+    margin-left: 63px;
 }
 .guides article img{
     margin-bottom: 20px;
@@ -172,8 +175,30 @@ header nav ul li a {
     text-decoration-line: underline;
     color: #000000;
 }
+.owl-carousel .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 20px;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; }
+.owl-carousel .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: mediumpurple;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px; }
+.owl-carousel .owl-dots .owl-dot.active span, owl-carousel .owl-dots .owl-dot:hover span {
+    background: rebeccapurple; }
 
 .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
     display: none;
 }
+
 
