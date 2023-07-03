@@ -224,7 +224,11 @@ header {
 .owl-carousel .owl-dots {
   text-align: center;
   -webkit-tap-highlight-color: transparent;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-left: 60px; }
+@media screen and (max-width: 1024px) {
+  .owl-carousel .owl-dots {
+    margin-left: 0; } }
   .owl-carousel .owl-dots .owl-dot {
     display: inline-block;
     zoom: 1;
