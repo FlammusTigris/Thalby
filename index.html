@@ -6,36 +6,31 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thalby</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preproc_style.css">
 </head>
 <body>
 <header>
-    <div class="container">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">Shop</a>
-                    </li>
-                    <li>
-                        <a href="#">Collections</a>
-                    </li>
-                    <li>
-                        <a href="#">Try a Free Guide</a>
-                    </li>
-                    <li>
-                        <a href="#">Stories</a>
-                    </li>
+    <div class="header-wrapper container">
+        <a href="#" class="logo">
+            <img src="img/HeaderLogo.svg" alt="Ups">
+        </a>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Shop</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Collections</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Try a Free Guide</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Stories</a></li>
                 </ul>
-            </nav>
-            <a href="#" class="logo">
-                <img src="img/HeaderLogo.jpg" alt="Ups">
-            </a>
+            </div>
+        </nav>
         <div class="social_header">
             <ul>
                 <li>
@@ -57,98 +52,102 @@
         </div>
     </div>
 </header>
-<section class="main_banner">
-    <div class="container">
-        <article>
-            <h1 class="main_headline">
-                Fall deeper in love with <br> humanity.
-            </h1>
-            <p class="headline_annotation">
-                Get to know the world through our concise, informative and inspiring guides.
+<main>
+    <section class="main_banner">
+        <div class="container">
+            <article>
+                <h1 class="main_headline">
+                    Fall deeper in love with <br> humanity.
+                </h1>
+                <p class="headline_annotation">
+                    Get to know the world through our concise, informative and inspiring guides.
+                </p>
+                <a href="#">
+                    Shop Now
+                </a>
+            </article>
+            <div class="main_banner_img">
+                <img src="img/main_banner.jpg" alt="Ups">
+            </div>
+        </div>
+    </section>
+    <section class="guides">
+        <div class="container">
+            <h2>
+                Our guides explain countries and cultures.
+            </h2>
+            <p class="guides_describe">
+                Are you curious about the world around you? Our guides are for smart global citizens, world travelers
+                and engaged residents who want to gain a deeper understanding of the cultures and societies they care
+                about.
             </p>
-            <a href="#">
-                Shop Now
-            </a>
-        </article>
-        <div class="main_banner_img">
-            <img src="img/main_banner.jpg"alt="Ups">
-        </div>
-    </div>
-</section>
-<section class="guides">
-    <div class="container">
-    <h2>
-        Our guides explain countries and cultures.
-    </h2>
-    <p class="guides_describe">
-        Are you curious about the world around you? Our guides are for smart global citizens, world travelers and engaged residents who want to gain a deeper understanding of the cultures and societies they care about.
-    </p>
-    <p class="guides_describe">
-        Available as ebooks here and on Amazon.
-    </p>
-    <h2>
-        Our best sellers
-    </h2>
-        <div class="owl-carousel ">
-            <div>
-                <article>
-                <img src="img/guides1.jpg" alt="Ups">
-                <h4 class="describe">
-                    Thalby Guide to French Culture and Heritage
-                </h4>
-                <p class="cost">
-                    USD 6.99
-                </p>
-                <p class="cart">
-                    Add to cart
-                </p>
-                </article>
-            </div>
-            <div>
-                <article>
-                <img src="img/guides2.jpg" alt="Ups">
-                <h4 class="describe">
-                    Thalby Guide to French People and <br>Society
-                </h4>
-                <p class="cost">
-                    USD 6.99
-                </p>
-                <p class="cart">
-                    Add to cart
-                </p>
-                </article>
-            </div>
-            <div>
-                <article>
-                <img src="img/guides3.jpg" alt="Ups">
-                <h4 class="describe">
-                    Thalby Guide to German Culture and Heritage
-                </h4>
-                <p class="cost">
-                    USD 6.99
-                </p>
-                <p class="cart">
-                    Add to cart
-                </p>
-                </article>
-            </div>
-            <div>
-                <article>
-                <img src="img/guides4.jpg" alt="Ups">
-                <h4 class="describe">
-                    Thalby Guide to Moroccan Culture and Heritage
-                </h4>
-                <p class="cost">
-                    USD 6.99
-                </p>
-                <p class="cart">
-                    Add to cart
-                </p>
-                </article>
+            <p class="guides_describe">
+                Available as ebooks here and on Amazon.
+            </p>
+            <h2>
+                Our best sellers
+            </h2>
+            <div class="owl-carousel ">
+                <div>
+                    <article>
+                        <img src="img/guides1.jpg" alt="Ups">
+                        <h4 class="describe">
+                            Thalby Guide to French Culture and Heritage
+                        </h4>
+                        <p class="cost">
+                            USD 6.99
+                        </p>
+                        <p class="cart">
+                            Add to cart
+                        </p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="img/guides2.jpg" alt="Ups">
+                        <h4 class="describe">
+                            Thalby Guide to French People and Society
+                        </h4>
+                        <p class="cost">
+                            USD 6.99
+                        </p>
+                        <p class="cart">
+                            Add to cart
+                        </p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="img/guides3.jpg" alt="Ups">
+                        <h4 class="describe">
+                            Thalby Guide to German Culture and Heritage
+                        </h4>
+                        <p class="cost">
+                            USD 6.99
+                        </p>
+                        <p class="cart">
+                            Add to cart
+                        </p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="img/guides4.jpg" alt="Ups">
+                        <h4 class="describe">
+                            Thalby Guide to Moroccan Culture and Heritage
+                        </h4>
+                        <p class="cost">
+                            USD 6.99
+                        </p>
+                        <p class="cart">
+                            Add to cart
+                        </p>
+                    </article>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</main>
 <script src="https://code.jquery.com/jquery-3.7.0.js"
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
         crossorigin="anonymous"></script>
