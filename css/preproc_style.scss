@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "reset.css";
+@import "normalize.css";
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
 @import "mobile.css";
+
 
 $header_font_color: #1C1B1B;
 $font_color: #000000;
@@ -250,6 +253,7 @@ header {
       @include max-screen(1024px) {
         margin-left: 0;
         align-items: center;
+        padding: 0 10px;
       }
 
       img {
